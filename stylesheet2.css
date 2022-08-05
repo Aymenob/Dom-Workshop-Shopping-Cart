@@ -137,7 +137,7 @@ a:hover {
 
 }
 
-.button1 {
+.button1, .button3{
     border: 0;
     margin-left: 0.5cm;
     margin-top: 0.2cm;
@@ -604,4 +604,8 @@ html, body {
 }
 .bi-heart:hover{
     cursor: pointer;
+}
+.red {
+
+    color: red
 }
