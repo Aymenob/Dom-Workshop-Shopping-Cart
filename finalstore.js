@@ -73,7 +73,7 @@ function ready() {
             total = total + (price * quantity); //console.log(total)
 
         }
-        CartShopTotalContainer.getElementsByClassName("cart-total-price")[0].innerHTML = total;
+        CartShopTotalContainer.getElementsByClassName("cart-total-price")[0].innerHTML = `$${total}`;
     }
 
 
